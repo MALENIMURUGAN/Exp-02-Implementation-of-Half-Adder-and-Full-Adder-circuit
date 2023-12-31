@@ -41,7 +41,8 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 ```
 module de3hafeez(a,b,sum,carry);
 input a,b;
-output sum,carry; xor(sum,a,b);
+output sum,carry;
+xor(sum,a,b);
 and(carry,a,b);
 endmodule
 ```
@@ -64,8 +65,10 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 ```
 module de3_1(a,b,c,sum,carry);
 input a,b,c;
-output sum,carry; xor(sum,a,b,c);
-assign carry=a&b|b&c|a&c; endmodule
+output sum,carry;
+xor(sum,a,b,c);
+assign carry=a&b|b&c|a&c;
+endmodule
 ```
 ### RTL REALIZATION:
 ![image](https://github.com/MALENIMURUGAN/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144870675/6bee143e-137a-4d38-ad4d-8e4662116d2c)
