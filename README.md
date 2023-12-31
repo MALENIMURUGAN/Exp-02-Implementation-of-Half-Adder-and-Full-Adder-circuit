@@ -7,8 +7,10 @@
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
 ### EQUIPMENTS REQUIRED:
-Hardware – PCs, Cyclone II , USB flasher Software – Quartus prime Theory Adders are digital circuits that carry out addition of numbers.
-TYPE THE PROGRAM IN QUARTUS SOFTWARE.
+Hardware – PCs, Cyclone II , USB flasher Software – Quartus prime
+### THEORY:
+Adders are digital circuits that carry out addition of numbers.
+1. TYPE THE PROGRAM IN QUARTUS SOFTWARE.
 2. COMPILE AND RUN THE PROGRAM.
 3. GENERATE THE RTL SCHEMATIC AND SAVE THE LOGIC DIAGRAM.
 4. CREATE NODES FOR INPUTS AND OUTPUTS TO GENERATE THE TIMING DIAGRAM.
