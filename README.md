@@ -32,7 +32,8 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 
 ### PROGRAM:
 ```
-module de3hafeez(a,b,sum,carry);	                                           input a,b;
+module de3hafeez(a,b,sum,carry);
+input a,b;
 output sum,carry; xor(sum,a,b);
 and(carry,a,b);
 endmodule
@@ -54,7 +55,8 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
  ![image](https://github.com/MALENIMURUGAN/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144870675/a4f8fa7b-bc0a-4074-864e-40709086aa5d)
 ### PROGRAM:
 ```
-module de3_1(a,b,c,sum,carry);	                                             input a,b,c;
+module de3_1(a,b,c,sum,carry);
+input a,b,c;
 output sum,carry; xor(sum,a,b,c);
 assign carry=a&b|b&c|a&c; endmodule
 ```
