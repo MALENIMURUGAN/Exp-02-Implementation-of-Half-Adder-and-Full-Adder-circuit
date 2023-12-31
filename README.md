@@ -1,5 +1,5 @@
-# NAME:MALENI.M
-# REGISTER NUMBER:212223040110
+# NAME: MALENI.M
+# REGISTER NUMBER: 212223040110
 # Exp-03-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
